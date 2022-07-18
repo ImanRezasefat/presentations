@@ -1,7 +1,7 @@
 # Javascript generators
 
-**Generators** are functions that can be played and paused during execution.
-In order to understand how generators work you need to have an understanding of these concepts:
+**Generators** are functions that can be played and paused during execution.<br>
+In order to understand how generators work you need to have an understanding of these concepts:<br>
 **Symbol**:A Symbol is a unique and immutable primitive value and may be used as the key of an Object property.<br>
 **prototype**:Prototypes are the mechanism by which JavaScript objects inherit features from one another.<br>
 **iterators**: well generators are a kind of iterator so we go deep dive on this one so no one-line explanation.<br>
