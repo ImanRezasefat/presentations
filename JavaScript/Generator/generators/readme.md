@@ -2,9 +2,9 @@ Javascript generators
 
 **Generators** are functions that can be played and paused during execution.
 In order to understand how generators work you need to have an understanding of these concepts:
-**Symbol**:A Symbol is a unique and immutable primitive value and may be used as the key of an Object property.
-**prototype**:Prototypes are the mechanism by which JavaScript objects inherit features from one another.
-**iterators**: well generators are a kind of iterator so we go deep dive on this one so no one-line explanation.
+**Symbol**:A Symbol is a unique and immutable primitive value and may be used as the key of an Object property.<br>
+**prototype**:Prototypes are the mechanism by which JavaScript objects inherit features from one another.<br>
+**iterators**: well generators are a kind of iterator so we go deep dive on this one so no one-line explanation.<br>
 ## Js Iterators
 What is an iterator? Any object that implements an iterable protocol(or could be in its prototype chain). In order to implement the protocol, you will need to add a function to that object with the key [Symbol.iterator] this object performs the iteration using the next method. The result of next can be { value:result, done:false } for there is more to come and {value:result, done:true} for it is the end of iteration.
 So to make a normal object to an iterable object we will do:
