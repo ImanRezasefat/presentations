@@ -1,4 +1,4 @@
-Javascript generators
+# Javascript generators
 
 **Generators** are functions that can be played and paused during execution.
 In order to understand how generators work you need to have an understanding of these concepts:
